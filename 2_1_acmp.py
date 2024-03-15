@@ -1,8 +1,4 @@
 #A+B
-a = int(input())
-b = int(input())
-if a < 10**9 and b < 10**9:
-    print(a+b)
-else:
-    print('введите числа < 10**9')
-#решил сам, но есть более простое решение
+a, b = input().split()
+print(int(a)+int(b))
+#решил не сам
