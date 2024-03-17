@@ -1,8 +1,9 @@
-A = input()
-B = input()
-if A < B:
+#Больше-меньше
+a = int(input())
+b = int(input())
+if a < b:
     print('<')
-elif A > B:
+elif a > b:
     print('>')
-else:
+elif a==b:
     print('=')
